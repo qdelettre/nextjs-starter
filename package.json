@@ -12,7 +12,7 @@
     "wa-dev": "yarn --cwd packages/web-app dev",
     "dev": "yarn wc-build && yarn wa-dev",
     "build": "yarn wc-build && yarn wa-build",
-    "start": "yarn wc-start && yarn wa-start"
+    "start": "yarn wc-build && yarn wa-start"
   },
   "license": "MIT"
 }
