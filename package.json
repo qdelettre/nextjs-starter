@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "wc-build": "yarn --cwd packages/web-components build",
+    "wc-test": "yarn --cwd packages/web-components test",
     "wc-start": "yarn --cwd packages/web-components start",
     "wa-build": "yarn --cwd packages/web-app build",
     "wa-start": "yarn --cwd packages/web-app start",
